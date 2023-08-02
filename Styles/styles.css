@@ -1,0 +1,98 @@
+
+
+/*----------------GENERAL STYLING------------*/
+
+:root{
+  --background-color:
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+img{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  overscroll-behavior: none;
+  height: 3000px;
+}
+
+html{
+  scroll-snap-type: y mandatory;
+  font-size: 16px;
+}
+
+button{
+  border-radius: 5px;
+  padding: .3rem;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+}
+
+h1{
+  font-size: 3.5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+
+
+
+
+
+/*-----------Header----------*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
+  height: 5vh;
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  cursor: pointer;
+  margin: 0 1rem 0 0;
+}
+
+#initials{
+  margin: 0 0 0 1rem;
+}
+
+section{
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem 0 5rem;
+}
+
+#image-container{
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 2rem;
+}
