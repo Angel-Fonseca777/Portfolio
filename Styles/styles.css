@@ -117,7 +117,7 @@ section{
   align-items: end;
 }
 
-#section-div{
+.section-div{
   display: flex;
   width: 50vw;
   height: 30vh;
@@ -179,14 +179,14 @@ button.link.is-Dark:active{
 
 /*----------MOBILE/SMALLER VIEW----------*/
 @media (max-width: 850px){
-  #section-div{
+  .section-div{
     max-width: 200px;
     height: 50vh;
   }
 }
 
 @media (max-width: 613px) {
-  #section-div{
+  .section-div{
     max-width: 150px;
     height: 70vh;
     margin-right: 1rem;
